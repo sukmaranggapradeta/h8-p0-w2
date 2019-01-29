@@ -1,0 +1,74 @@
+
+--------------------------------------- 1. Newton Second Law ------------------------------
+Algoritma Newton Second Law:
+1. Baca dan Simpan nilai m sebagai massa benda (600 kg) 
+2. Baca dan Simpan nilai a sebagai percepatan benda (2 m/s2)
+3. Hitung nilai ΣF = resultan gaya (Newton)  dengan rumus ΣF = m x a
+4. Tampilan ΣF = resultan gaya
+
+Pseudocode Newton Second Law:
+START
+ READ and SAVE "massaBenda = 600"
+ READ and SAVE "percepatanBenda = 2"
+ CALCULATE and SAVE "resultanGaya" = "massaBenda" multiply by "percepatanBenda" <---600x2=1200
+ DISPLAY resultanGaya <---1200
+END
+
+
+----------------------------------------- 2. Tahun Kabisat --------------------------------
+Algoritma Tahun Kabisat:
+1. Baca dan Simpan nilai Tahun
+2. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, maka tahun itu adalah tahun kabisat
+3. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, maka tahun itu adalah tahun kabisat
+4. selain kedua kriteria diatas maka tahun itu bukan tahun kabisat
+
+Pseudocode Tahun Kabisat:
+START
+ READ Year
+ IF Year mod 4 is 0 and Year Year mod 100 is not equal to 0
+   DISPLAY "Tahun Kabisat"
+ ELSE IF Year mod 4 is 0 and Year mod 100 is zero and Year mod 400 is 0 
+   DISPLAY "Tahun Kabisat"
+ ELSE
+   DISPLAY "Bukan Tahun Kabisat"
+END
+
+
+----------------------------------------- 3. Laundry Day --------------------------------
+Algoritma Laundry Day:
+1. Total Pakaian yang akan dimasukkan ke mesin cuci adalah sebanyak 20
+2. Masukkan pakaian kedalam mesin cuci satu per satu ulangi hingga semua pakaian telah masuk
+3. Setelah semua pakaian telah masuk kedalam mesin cuci lalu nyalakan mesin cuci
+
+
+Pseudocode Laundry Day:
+START
+ STORE "jumlahPakaian" with 20
+ WHILE "jumlahPakaian" > 0
+  Decrement "jumlahPakaian" by 1
+ DISPLAY "Turn on The washing machine"
+END
+
+
+----------------------------------------- 4. Periksa Kuku --------------------------------
+Algoritma Periksa Kuku:
+1. Jumlah murid adalah sebanyak 40 orang
+2. Guru akan mengecek satu per satu muridnya
+3. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut
+4. Jika tidak guru akan memuji siswa/siswi tersebut.
+
+Pseudocode Periksa Kuku:
+START
+ STORE "Students" with 40
+ WHILE "Students" > 0
+  IF Student have long nail is TRUE
+    DISPLAY "Punish this student"
+  ELSE
+    DISPLAY "Praise this student"
+  ENDIF
+ Decrement "Students" by 1
+END
+
+
+
+
